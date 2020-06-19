@@ -1,0 +1,361 @@
+*{margin: 0;padding: 0}
+body,html{
+  width: 100vw;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+/* section1 */
+.sec1{
+  background-image: url("img/sec1-bg.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.sec1 .logo{
+  margin-right: 13vw;
+
+}
+.sec1 .logo img{
+  width: 8vw;
+}
+.sec1 .nav{
+  width:80vw;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9vw;
+}
+
+.sec1 .nav ul{
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  width:45vw;
+}
+.sec1 .nav ul li{
+  cursor: pointer;
+}
+
+.icons{
+  width:5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons img{
+  height: 1vw;
+}
+.sec1 .content{
+  color:white;
+  font-size: 4.5vw;
+  width:60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+}
+.sec1 .content img{
+  margin-bottom: 4vw;
+  width: 10vw;
+}
+.sec1 .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  margin-bottom: 10vw;
+}
+.sec1 .buttons button{
+  width:8vw;
+  height: 2vw;
+  font-size: 0.8vw;
+}
+.sec1 .buttons .booking{
+  background-color: rgba(0,0,0,0.5);
+  border:0.5px solid black;
+  color:white;
+}
+.sec1 .buttons .menu{
+  background-color: rgba(255,255,255,0.5);
+  border:0.5px solid white;
+  color:white;
+}
+
+
+/* section2 */
+.sec2{
+  background-image: url("img/sec2-bg.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 10vw 0 8vw 0;
+  align-items: center;
+}
+.sec2 .text p{
+  color:#d69320;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.sec2 .text .decorator{
+  margin-bottom: 2vw;
+}
+.sec2 .text{
+  width: 35vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2 .decorator{
+  width: 10vw;
+}
+.sec2 .chef{
+  width: 10vw;
+}
+.sec2 .dish{
+  width: 28vw;
+}
+.sec2 .text .para{
+  font-size: 0.9vw;
+  width: 25vw;
+  margin-bottom: 3rem;
+}
+
+/* section3 */
+.sec3{
+  background-image: url("img/sec3-bg.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.sec3 .wrapper{
+  width: 30vw;
+  height: 35vw;
+  background: rgba(0,0,0,0.6);
+  margin-left: 52vw;
+  margin-top:5vw;
+  margin-bottom: 5vw;
+  color:white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec3 .wrapper p{
+  font-size:2vw;
+}
+.sec3 .wrapper .decorator{
+  margin-top: 1vw;
+}
+
+.sec3 .wrapper .para{
+  width:25vw;
+  margin-top: 1vw;
+  margin-bottom: 4vw;
+  font-size: 0.9vw;
+}
+.sec3 .decorator{
+  width: 10vw;
+}
+.sec3 .wrapper .ingradients {
+  width: 25vw;
+  display: flex;
+  justify-content: space-around;
+}
+.sec3 .wrapper img{
+  width: 6vw;
+}
+
+
+/* section4 */
+.sec4{
+  background-image: url("img/sec2-bg.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.sec4 .wrapper{
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+.sec4 .wrapper .title{
+  font-size: 2vw;
+  color: #d69320;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.sec4 img{
+  width: 10vw;
+}
+.sec4 .wrapper .price{
+  display: flex;
+  color: #d69320;
+  font-size: 1vw;
+  border-bottom: 1px dashed #d69320;
+  width: 22vw;
+  justify-content: space-between;
+}
+.sec4 .wrapper .details{
+  width: 22vw;
+  margin-top: 2rem;
+  font-size: 0.83vw;
+}
+.sec4 .wrapper .salads, .sec4 .wrapper .dishes{
+  margin-top: 3vw;
+}
+
+
+/* section5 */
+.sec5{
+  background-image: url("img/sec5-bg.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:6vw 0 6vw 0;
+}
+.sec5 .wrapper{
+  width: 40vw;
+  height: 25vw;
+  background: rgba(0,0,0,0.8);
+  color:white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:3vw 1vw 3vw 1vw;
+}
+.sec5 .wrapper p{
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
+.sec5 .wrapper .decorator{
+  margin-bottom: 1vw;
+}
+.sec5 .wrapper .para{
+  line-height: 2.5;
+  font-size: 1vw;
+  width: 80%;
+}
+.sec5 .wrapper span {
+  font-size: 0.8vw;
+}
+
+
+/* section6 */
+.sec6{
+  background-image: url("img/sec2-bg.jpg");
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:6vw 0 6vw 0;
+}
+.sec6 .text{
+  height: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  width: 25vw;
+}
+.sec6 .imgs img{
+  height: 28vw;
+}
+.sec6 .text .title{
+  font-size: 2vw;
+  color: #d69320;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.sec6 .decorator{
+  width: 10vw;
+}
+.sec6 .text p{
+  margin-bottom: 1vw;
+}
+.sec6 .text .para{
+  width: 80%;
+  font-size: 0.75vw;
+}
+.inputs div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    color: #d69320;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+}
+.inputs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.inputs input{
+  width: 10vw;
+  height: 1.5vw;
+}
+.sec6 .text button{
+  width: 8vw;
+  height: 1.5vw;
+  background: #d69320;
+  color:white;
+  border: 0;
+  font-size: 0.7vw;
+}
+
+
+/* footer */
+footer{
+  padding: 3vw 19vw 3vw 19vw;
+  background: black;
+  display: flex;
+  color:white;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 0.9vw;
+}
+footer .title{
+  font-size: 1.4vw;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+footer .decorator{
+  margin-bottom: 1vw;
+  width: 10vw;
+}
+footer .about{
+  width: 20vw;
+}
